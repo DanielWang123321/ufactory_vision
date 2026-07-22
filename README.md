@@ -20,7 +20,7 @@
 * Configuration with Luxonis OAK-D-Pro-PoE Camera: [Readme](/ggcnn_grasping_demo/example/luxonis_oak_poe/README.md)
 
 ## Videos
-* Customized 850 + Realsense D555 + UFACTORY Gripper G2
+* UFACTORY 850(Gigabit Ethernet cable) + Realsense D555 + UFACTORY Gripper G2
 [![Watch the video](assets/realsense_d555.jpg)](https://www.youtube.com/watch?v=c6AeUTJM0QI)
 * xArm6 + Realsense D435 + UFACTORY Gripper G1
 [![Watch the video](assets/realsense_d435.jpg)](https://www.youtube.com/watch?v=ijnuqsNcfUY)
