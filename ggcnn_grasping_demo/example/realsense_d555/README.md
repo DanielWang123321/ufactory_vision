@@ -10,23 +10,15 @@
     -   3D File Download: [D555_Camera_Stand.STEP](https://www.ufactory.cc/wp-content/uploads/2025/12/D555_Camera_Stand.zip)
 
 ## 850 User Ethernet Port
-The standard 850 robotic arm is internally equipped with a 100M Ethernet cable compliant with standard CAT5, connecting from the base to the end of the arm. This Ethernet port can be used if internal wiring is required.
+UFACTORY 850 is internally equipped with a **Gigabit** Ethernet cable compliant with standard CAT5E, connecting from the base to the end of the arm. This Ethernet port can be used if internal wiring is required.
 
-For D555 camera testing, it is recommended to use a customized version of the 850, which features an internal 1000M Ethernet cable to ensure stable camera data transmission.
-If you require the customized version of the 850 or an M8 aviation connector-to-Ethernet port adapter cable, please contact technical support at support@ufactory.cc.
-![](user_ethernet.jpg)
-
-Customized 850 (1000Mbps) User Ethernet Port Definition:
-| PIN | Signal   |
-| --- | -------- |
-| 1   | MX2-/DC- |
-| 2   | MX3+/DD+ |
-| 3   | MX3-/DD- |
-| 4   | MX0-/DA- |
-| 5   | MX1+/DB+ |
-| 6   | MX0+/DA+ |
-| 7   | MX0+/DC+ |
-| 8   | MX1-/DB- |
+User Ethernet Port Definition:
+| PIN | Signal   | PIN | Signal   |
+| --- | -------- | --- | -------- |
+| 1   | MX2-/DC- | 5   | MX1+/DB+ |
+| 2   | MX3+/DD+ | 6   | MX0+/DA+ |
+| 3   | MX3-/DD- | 7   | MX0+/DC+ |
+| 4   | MX0-/DA- | 8   | MX1-/DB- |
 
 
 ## Software
