@@ -128,7 +128,7 @@ class DepthAiCamera(object):
             )
         else:
             color_image = None
-        depth_image = np.asanyarray(depth_frame) * 0.001
+        depth_image = (np.asanyarray(depth_frame) * 0.001).astype(np.float32)
         depth_image[depth_image == 0] = math.nan
         return color_image, depth_image
 

@@ -36,7 +36,7 @@ class RealSenseCamera(object):
         depth_image = np.asanyarray(depth_frame.get_data())  # 深度图（默认16位）
 
         # convert metric
-        depth_image = depth_image * 0.001
+        depth_image = (depth_image * 0.001).astype(np.float32)
         depth_image[depth_image == 0] = math.nan
         
         # depth_image_8bit = cv2.convertScaleAbs(depth_image, alpha=0.03)  # 深度图（8位）

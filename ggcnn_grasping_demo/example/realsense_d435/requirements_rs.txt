@@ -1,7 +1,17 @@
-numpy==1.24.4
-torch==2.4.1
-opencv-contrib-python==4.10.0.84
-opencv-python==4.10.0.84
-scikit-image==0.21.0
-xarm-python-sdk==1.14.7
-pyrealsense2==2.56.5.9235
+# Python 3.12-3.14
+numpy==2.4.6; python_version >= "3.12" and python_version < "3.15"
+torch==2.11.0; python_version >= "3.12" and python_version < "3.15"
+scikit-image==0.26.0; python_version >= "3.12" and python_version < "3.15"
+opencv-contrib-python==4.10.0.84; python_version >= "3.12" and python_version < "3.15"
+opencv-python==4.10.0.84; python_version >= "3.12" and python_version < "3.15"
+pyrealsense2==2.58.3.10794; python_version >= "3.12" and python_version < "3.15"
+xarm-python-sdk==1.18.4; python_version >= "3.12" and python_version < "3.15"
+
+# Python 3.9-3.11
+numpy==1.24.4; python_version < "3.12"
+torch==2.4.1; python_version < "3.12"
+opencv-contrib-python==4.10.0.84; python_version < "3.12"
+opencv-python==4.10.0.84; python_version < "3.12"
+scikit-image==0.21.0; python_version < "3.12"
+xarm-python-sdk==1.18.4; python_version < "3.12"
+pyrealsense2==2.56.5.9235; python_version < "3.12"
