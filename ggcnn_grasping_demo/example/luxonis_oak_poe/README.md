@@ -13,7 +13,7 @@
 
 ### Supported Python Versions
 
-Supported Python versions: 3.8-3.11 (Recommended: 3.11).
+Supported Python versions: 3.8-3.14 (Recommended: 3.11).
 
 ## Installation
 

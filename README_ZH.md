@@ -1,10 +1,18 @@
 # ufactory_vision
 
+![Python](https://img.shields.io/badge/Python-3.9%20%7C%203.10%20%7C%203.11%20%7C%203.12%20%7C%203.13%20%7C%203.14-3776AB.svg)
+![License](https://img.shields.io/github/license/xArm-Developer/ufactory_vision.svg)
+![Release](https://img.shields.io/badge/release-v0.1.0-blue.svg)
+
+[English Version](./README.md)
+
 ## 项目概述
 
 `ufactory_vision` 是一个基于 UFACTORY（深圳市众为创造科技有限公司） 机械臂的视觉抓取演示项目。用户可以通过本项目快速实现基于视觉的物体检测和抓取。
 
 ## 硬件要求
+
+
 
 ### 示例脚本的硬件配置
 

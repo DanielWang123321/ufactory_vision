@@ -1,5 +1,9 @@
 # ufactory_vision
 
+![Python](https://img.shields.io/badge/Python-3.9%20%7C%203.10%20%7C%203.11%20%7C%203.12%20%7C%203.13%20%7C%203.14-3776AB.svg)
+![License](https://img.shields.io/github/license/xArm-Developer/ufactory_vision.svg)
+![Release](https://img.shields.io/badge/release-v0.1.0-blue.svg)
+
 [中文版说明 (Chinese Version)](./README_ZH.md)
 
 ## Project Overview
